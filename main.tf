@@ -3,6 +3,6 @@ resource "aws_instance" "my_third_app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Example EC2 for demo from PMR"
+    Name = "Example EC2 for no code demo"
   }
 }
